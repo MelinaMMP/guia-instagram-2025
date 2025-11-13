@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guia completo de Instagram para imobiliárias em 2025. Estratégias práticas, templates e técnicas para gerar leads qualificados e vender mais imóveis.">
+    <meta name="keywords" content="instagram para imobiliárias, marketing imobiliário instagram, como vender imóveis no instagram, redes sociais imobiliárias, corretor instagram">
+    <title>Instagram para Imobiliárias: Guia Completo 2025 | RedattoLAB</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #084d6e;
+            --primary-dark-blue: #063549;
+            --ivory: #FFFFF0;
+            --ivory-light: #FAFAF5;
+            --ivory-dark: #F5F5E6;
+            --accent-gold: #daa520;
+            --accent-gold-dark: #c99a1f;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            background: var(--ivory);
+            line-height: 1.8;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: var(--primary-blue);
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(218, 165, 32, 0.2);
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 60px;
+            transition: var(--transition);
+        }
+
+        .logo img:hover {
+            transform: scale(1.05);
+        }
+
+        article {
+            max-width: 900px;
+            margin: 120px auto 80px;
+            padding: 0 20px;
+        }
+
+        .category-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary-blue);
+            color: var(--ivory);
+            padding: 0.5rem 1.2rem;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-family: 'Urbanist', sans-serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: var(--primary-blue);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            color: var(--text-medium);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--ivory-dark);
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .article-meta i {
+            color: var(--accent-gold);
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 500px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 3rem;
+            box-shadow: 0 20px 60px rgba(8, 77, 110, 0.15);
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .article-content {
+            font-size: 1.1rem;
+            line-height: 1.9;
+        }
+
+        .article-content h2 {
+            font-family: 'Urbanist', sans-serif;
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin: 3rem 0 1.5rem;
+            font-weight: 700;
+        }
+
+        .article-content h3 {
+            font-size: 1.5rem;
+            color: var(--primary-blue);
+            margin: 2.5rem 0 1rem;
+            font-weight: 600;
+        }
+
+        .article-content p {
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .article-content strong {
+            color: var(--primary-blue);
+            font-weight: 600;
+        }
+
+        .article-content ul, .article-content ol {
+            margin: 1.5rem 0 1.5rem 2rem;
+        }
+
+        .article-content li {
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-dark-blue) 100%);
+            color: var(--ivory);
+            padding: 2.5rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            border-left: 5px solid var(--accent-gold);
+        }
+
+        .highlight-box h3 {
+            color: var(--accent-gold) !important;
+            margin-top: 0;
+        }
+
+        .highlight-box p, .highlight-box li {
+            color: var(--ivory) !important;
+        }
+
+        .stats-box {
+            background: var(--ivory-light);
+            padding: 2.5rem;
+            border-radius: 15px;
+            margin: 3rem 0;
+            border: 2px solid var(--accent-gold);
+        }
+
+        .stats-box h3 {
+            color: var(--primary-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-box {
+            background: var(--ivory-light);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            margin: 4rem 0;
+            border: 2px solid var(--accent-gold);
+        }
+
+        .cta-box h3 {
+            color: var(--primary-blue);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-box p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: var(--text-medium);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: var(--transition);
+            box-shadow: 0 10px 30px rgba(218, 165, 32, 0.3);
+        }
+
+        .btn:hover {
+            background: var(--accent-gold-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(218, 165, 32, 0.4);
+        }
+
+        footer {
+            background: var(--primary-dark-blue);
+            color: var(--ivory);
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .featured-image {
+                height: 300px;
+            }
+
+            article {
+                margin: 100px auto 60px;
+            }
+
+            .article-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .article-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://www.redattolab.com.br" class="logo">
+                <img src="https://i.ibb.co/jPWZ01JV/Redatto-LAB-400-x-150-px.png" alt="RedattoLAB">
+            </a>
+        </nav>
+    </header>
+
+    <article>
+        <div class="article-header">
+            <span class="category-badge">
+                <i class="fas fa-share-alt"></i> Redes Sociais
+            </span>
+            <h1>Instagram para imobiliárias: guia completo 2025</h1>
+            <div class="article-meta">
+                <span><i class="far fa-calendar"></i> 10 Jan 2025</span>
+                <span><i class="far fa-clock"></i> 12 min de leitura</span>
+                <span><i class="far fa-user"></i> RedattoLAB</span>
+            </div>
+        </div>
+
+        <div class="featured-image">
+            <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&h=800&fit=crop" alt="Instagram para imobiliárias">
+        </div>
+
+        <div class="article-content">
+            <p><strong>Em 2025, o Instagram deixou de ser apenas uma rede social e se tornou o principal canal de vendas para imobiliárias.</strong> Com mais de 113 milhões de usuários ativos no Brasil, é onde seus clientes passam em média 32 minutos por dia — e onde você precisa estar.</p>
+
+            <p>Mas aqui está o problema: a maioria das imobiliárias usa o Instagram completamente errado. Postam foto + preço + descrição e esperam milagres. Resultado? Zero engajamento, zero leads, zero vendas.</p>
+
+            <p>Este guia vai mudar isso. Vou mostrar exatamente como usar o Instagram para gerar leads qualificados e vender mais imóveis em 2025.</p>
+
+            <div class="stats-box">
+                <h3>📊 Números que você precisa saber (2025)</h3>
+                <ul>
+                    <li><strong>92% dos compradores de imóveis</strong> pesquisam no Instagram antes de decidir</li>
+                    <li><strong>67% dos leads imobiliários</strong> agora vêm de redes sociais (SECOVI-SP, 2024)</li>
+                    <li><strong>Taxa de conversão média:</strong> 2,3% para perfis otimizados vs 0,4% para perfis comuns</li>
+                    <li><strong>Custo por lead:</strong> R$ 8 a R$ 25 com estratégia correta no Instagram Ads</li>
+                </ul>
+            </div>
+
+            <h2>1. Perfil profissional que converte (não apenas "bonito")</h2>
+
+            <p>Seu perfil é sua vitrine digital. Em 3 segundos, o visitante decide se fica ou sai. Veja o que funciona:</p>
+
+            <h3>Nome de usuário estratégico</h3>
+            <ul>
+                <li><strong>Ruim:</strong> @imobiliaria_jose_silva_123</li>
+                <li><strong>Bom:</strong> @imoveiscopacabana</li>
+                <li><strong>Ótimo:</strong> @apartamentosrjsul (palavra-chave + localização)</li>
+            </ul>
+
+            <h3>Bio que vende (fórmula testada)</h3>
+            <p><strong>Linha 1:</strong> O que você faz (resultado que entrega)<br>
+            <strong>Linha 2:</strong> Para quem você faz (seu nicho)<br>
+            <strong>Linha 3:</strong> Prova social (números, certificações)<br>
+            <strong>Linha 4:</strong> Call-to-action claro</p>
+
+            <p><strong>Exemplo real que gera resultados:</strong></p>
+            <p style="background: var(--ivory-light); padding: 1.5rem; border-radius: 10px; border-left: 4px solid var(--accent-gold);">
+                🏠 Especialistas em apartamentos de 2 e 3 quartos na Zona Sul<br>
+                📍 Ajudamos famílias a realizar o sonho da casa própria<br>
+                ⭐ +450 famílias atendidas | 98% de satisfação<br>
+                👇 Encontre seu imóvel ideal agora
+            </p>
+
+            <h3>Destaques organizados (obrigatório em 2025)</h3>
+            <ul>
+                <li><strong>"Disponíveis":</strong> Imóveis à venda/aluguel atualizados semanalmente</li>
+                <li><strong>"Vendidos":</strong> Prova social poderosa</li>
+                <li><strong>"Clientes":</strong> Depoimentos em vídeo</li>
+                <li><strong>"Dicas":</strong> Conteúdo educativo salvo</li>
+                <li><strong>"Processo":</strong> Como é trabalhar com você</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>💡 Hack do Instagram 2025</h3>
+                <p>O algoritmo atual prioriza perfis com taxa de salvamento alta. Crie conteúdo educativo que as pessoas queiram guardar: checklists, guias, infográficos. Um carrossel "10 erros ao comprar imóvel" pode gerar mais leads que 10 posts de imóveis.</p>
+            </div>
+
+            <h2>2. Conteúdo que engaja e vende (além de fotos de imóveis)</h2>
+
+            <p>A regra de ouro para Instagram imobiliário em 2025:</p>
+            <p><strong>70% educação + 20% inspiração + 10% venda direta</strong></p>
+
+            <h3>Tipos de conteúdo com maior engajamento (dados reais 2025)</h3>
+
+            <p><strong>1. Carrosséis educativos (alcance 3,8x maior que posts únicos)</strong></p>
+            <ul>
+                <li>"7 perguntas para fazer antes de visitar um apartamento"</li>
+                <li>"Checklist: documentos necessários para financiamento"</li>
+                <li>"Erros que fazem você perder R$ 50 mil na compra"</li>
+                <li>"Guia completo: como avaliar um imóvel usado"</li>
+            </ul>
+
+            <p><strong>2. Reels de valor (85% do alcance orgânico vem de Reels)</strong></p>
+            <ul>
+                <li>Tour virtual em 30 segundos (formato trending)</li>
+                <li>Antes e depois de reformas</li>
+                <li>"3 sinais de que o apartamento está superfaturado"</li>
+                <li>Bastidores de vistorias e negociações</li>
+                <li>Dicas rápidas com trending áudios</li>
+            </ul>
+
+            <p><strong>3. Stories estratégicos (conversão 2,5x maior que feed)</strong></p>
+            <ul>
+                <li>Enquetes: "Apartamento ou casa? Vote!"</li>
+                <li>Caixinhas de perguntas respondidas em vídeo</li>
+                <li>Countdown para lançamentos exclusivos</li>
+                <li>Bastidores humanizados (equipe, rotina, conquistas)</li>
+            </ul>
+
+            <h3>Calendário editorial semanal (template comprovado)</h3>
+            <ul>
+                <li><strong>Segunda:</strong> Motivacional + novo imóvel</li>
+                <li><strong>Terça:</strong> Carrossel educativo</li>
+                <li><strong>Quarta:</strong> Reel de tour virtual</li>
+                <li><strong>Quinta:</strong> Depoimento de cliente</li>
+                <li><strong>Sexta:</strong> Dica rápida em vídeo</li>
+                <li><strong>Sábado:</strong> Lançamento/Destaque da semana</li>
+                <li><strong>Domingo:</strong> Conteúdo de inspiração/lifestyle</li>
+            </ul>
+
+            <h2>3. Copywriting que converte seguidores em leads</h2>
+
+            <p>A legenda é onde acontece a mágica. Fórmula que funciona:</p>
+
+            <p><strong>AIDA para Instagram imobiliário:</strong></p>
+            <ol>
+                <li><strong>Atenção (primeiras 2 linhas):</strong> Gere curiosidade ou urgência</li>
+                <li><strong>Interesse (corpo):</strong> Conte uma história, mostre benefícios</li>
+                <li><strong>Desejo (meio):</strong> Pinte a vida do cliente naquele imóvel</li>
+                <li><strong>Ação (final):</strong> CTA claro e específico</li>
+            </ol>
+
+            <p><strong>Exemplo de legenda de alta conversão:</strong></p>
+            <p style="background: var(--ivory-light); padding: 1.5rem; border-radius: 10px; border-left: 4px solid var(--accent-gold);">
+                <em>"Sabe aquele apartamento onde você acorda com sol entrando pela janela, toma café olhando o verde e volta do trabalho pensando 'que bom estar em casa'?</em><br><br>
+                <em>É exatamente isso que este 3 quartos em Copacabana oferece. Não é só um imóvel. É qualidade de vida a 5 minutos do metrô.</em><br><br>
+                <em>✅ 92m², totalmente reformado<br>
+                ✅ Vaga de garagem + depósito<br>
+                ✅ Condomínio R$ 850 (inclui gás)<br>
+                ✅ Pronto para morar</em><br><br>
+                <em>12 famílias já pediram visita. Sobraram 3 horários esta semana.</em><br><br>
+                <em>💬 Comenta 'QUERO' que eu te mando os detalhes no direct."</em>
+            </p>
+
+            <h2>4. Instagram Ads: ROI de 4:1 é possível (e como)</h2>
+
+            <p>Tráfego orgânico é ótimo. Mas se você quer escalar, precisa de anúncios. E a boa notícia: ficou mais barato e eficiente em 2025.</p>
+
+            <h3>Estratégia de funil completo</h3>
+
+            <p><strong>Topo de funil (Awareness) - CPM: R$ 8-15</strong></p>
+            <ul>
+                <li><strong>Objetivo:</strong> Alcance</li>
+                <li><strong>Público:</strong> Frio (localização + interesses)</li>
+                <li><strong>Conteúdo:</strong> Vídeos educativos, guias gratuitos</li>
+                <li><strong>Budget sugerido:</strong> R$ 20/dia</li>
+            </ul>
+
+            <p><strong>Meio de funil (Consideração) - CPL: R$ 12-25</strong></p>
+            <ul>
+                <li><strong>Objetivo:</strong> Tráfego ou Mensagens</li>
+                <li><strong>Público:</strong> Engajou com conteúdo nos últimos 30 dias</li>
+                <li><strong>Conteúdo:</strong> Carrosséis de imóveis, cases de sucesso</li>
+                <li><strong>Budget sugerido:</strong> R$ 30/dia</li>
+            </ul>
+
+            <p><strong>Fundo de funil (Conversão) - CPA: R$ 45-80</strong></p>
+            <ul>
+                <li><strong>Objetivo:</strong> Conversões (WhatsApp/DM)</li>
+                <li><strong>Público:</strong> Visitou perfil ou site nos últimos 7 dias</li>
+                <li><strong>Conteúdo:</strong> Ofertas exclusivas, tours virtuais</li>
+                <li><strong>Budget sugerido:</strong> R$ 50/dia</li>
+            </ul>
+
+            <div class="highlight-box">
+                <h3>⚠️ Erro fatal que queima orçamento</h3>
+                <p>Anunciar imóveis caros (R$ 800k+) para público frio. Primeiro eduque, construa confiança, mostre autoridade. Só depois apresente as opções premium. O cliente de alto padrão compra relacionamento, não anúncio.</p>
+            </div>
+
+            <h2>5. DMs que vendem: transforme conversas em visitas</h2>
+
+            <p>68% dos leads imobiliários no Instagram começam via Direct. Mas a maioria morre ali mesmo. Por quê?</p>
+
+            <p><strong>Erros comuns:</strong></p>
+            <ul>
+                <li>Respostas genéricas e demoradas</li>
+                <li>Bombardeio de informações</li>
+                <li>Zero qualificação do lead</li>
+                <li>Não propor próximo passo claro</li>
+            </ul>
+
+            <h3>Script de qualificação rápida (2 minutos)</h3>
+            <p><strong>Mensagem 1:</strong> "Oi [nome]! Vi que você se interessou pelo apartamento em [bairro]. Para eu te ajudar melhor, me conta: você está buscando para morar ou investir?"</p>
+            <p><strong>Mensagem 2:</strong> "Perfeito! E qual seu prazo? Pretende decidir em quanto tempo?"</p>
+            <p><strong>Mensagem 3:</strong> "Show! Tenho 3 opções que se encaixam no que você busca. Prefere que eu mande aqui ou te ligo no WhatsApp para detalhar melhor?"</p>
+
+            <p><strong>Taxa de conversão DM → WhatsApp:</strong> 42% (quando bem feito)</p>
+
+            <h2>6. Ferramentas essenciais para Instagram imobiliário em 2025</h2>
+
+            <p><strong>Criação de conteúdo:</strong></p>
+            <ul>
+                <li><strong>Canva Pro:</strong> Templates prontos para stories e posts (R$ 54,90/mês)</li>
+                <li><strong>CapCut:</strong> Edição de Reels profissionais (gratuito)</li>
+                <li><strong>InShot:</strong> Edição rápida de vídeos (gratuito com marca d'água)</li>
+            </ul>
+
+            <p><strong>Agendamento e gestão:</strong></p>
+            <ul>
+                <li><strong>Meta Business Suite:</strong> Agendar posts e analisar métricas (gratuito)</li>
+                <li><strong>mLabs:</strong> Gestão multiplataforma com inbox unificado (R$ 99/mês)</li>
+            </ul>
+
+            <p><strong>Analytics e otimização:</strong></p>
+            <ul>
+                <li><strong>Instagram Insights nativo:</strong> Dados essenciais gratuitos</li>
+                <li><strong>Metricool:</strong> Relatórios detalhados e sugestões de horários (freemium)</li>
+            </ul>
+
+            <h2>7. Métricas que importam (esqueça likes)</h2>
+
+            <p>Em 2025, essas são as métricas que realmente indicam sucesso:</p>
+
+            <p><strong>Taxa de salvamento (meta: >3%)</strong><br>
+            Indica conteúdo de valor que gera autoridade</p>
+
+            <p><strong>Taxa de compartilhamento (meta: >2%)</strong><br>
+            Algoritmo ama e multiplica alcance orgânico</p>
+
+            <p><strong>DMs recebidos por semana (meta: 15-30 para perfis com 3k-10k)</strong><br>
+            O que realmente importa: conversas qualificadas</p>
+
+            <p><strong>Taxa de conversão DM → WhatsApp (meta: >35%)</strong><br>
+            Mede qualidade da abordagem</p>
+
+            <p><strong>Custo por lead qualificado (meta: <R$ 30)</strong><br>
+            ROI real do seu investimento</p>
+
+            <div class="stats-box">
+                <h3>📈 Benchmarks realistas por tamanho de perfil (2025)</h3>
+                <ul>
+                    <li><strong>1k-5k seguidores:</strong> 10-25 leads/mês | Taxa eng. 4-6%</li>
+                    <li><strong>5k-15k seguidores:</strong> 30-60 leads/mês | Taxa eng. 3-5%</li>
+                    <li><strong>15k-50k seguidores:</strong> 80-150 leads/mês | Taxa eng. 2-4%</li>
+                </ul>
+                <p><em>*Leads qualificados (responderam perguntas de qualificação)</em></p>
+            </div>
+
+            <h2>8. Estratégias avançadas (diferencial competitivo)</h2>
+
+            <h3>Colaborações estratégicas</h3>
+            <p>Parcerias com complementares geram leads grátis:</p>
+            <ul>
+                <li>Arquitetos e designers de interiores</li>
+                <li>Despachantes e escritórios de advocacia</li>
+                <li>Lojas de móveis e decoração</li>
+                <li>Corretores de seguros</li>
+            </ul>
+
+            <h3>Lives que convertem</h3>
+            <p><strong>Formato matador:</strong> "Tira-dúvidas ao vivo sobre financiamento imobiliário"</p>
+            <p><strong>Quando:</strong> Quintas às 19h30 (pico de audiência)</p>
+            <p><strong>CTA no final:</strong> "Se ainda ficou alguma dúvida, manda DM com a palavra DÚVIDA que eu respondo individualmente"</p>
+
+            <h3>UGC (conteúdo gerado por usuários)</h3>
+            <p>Repost de clientes vale ouro. Incentive:</p>
+            <ul>
+                <li>Stories marcando seu perfil após fechamento</li>
+                <li>Vídeos curtos sobre a experiência</li>
+                <li>Fotos com plaquinha "Conquistei meu apê com @seuperfil"</li>
+            </ul>
+
+            <h2>Conclusão: seu plano de ação para os próximos 30 dias</h2>
+
+            <p><strong>Semana 1: Fundação</strong></p>
+            <ul>
+                <li>Otimizar perfil com a fórmula deste artigo</li>
+                <li>Criar 5 destaques estratégicos</li>
+                <li>Definir calendário editorial</li>
+            </ul>
+
+            <p><strong>Semana 2-3: Conteúdo</strong></p>
+            <ul>
+                <li>Produzir 10 carrosséis educativos</li>
+                <li>Gravar 15 Reels (use templates do Canva)</li>
+                <li>Coletar 3 depoimentos em vídeo</li>
+            </ul>
+
+            <p><strong>Semana 4: Aceleração</strong></p>
+            <ul>
+                <li>Lançar primeira campanha de anúncios (R$ 300-500)</li>
+                <li>Implementar script de qualificação de DMs</li>
+                <li>Analisar métricas e ajustar estratégia</li>
+            </ul>
+
+            <p><strong>O Instagram não vai "morrer" tão cedo.</strong> Ele está se transformando no maior marketplace imobiliário do Brasil. Quem dominar agora, vai lucrar pelos próximos anos.</p>
+
+            <div class="cta-box">
+                <h3>Não tem tempo ou equipe para implementar tudo isso?</h3>
+                <p>A RedattoLAB gerencia Instagram de imobiliárias de ponta a ponta: criação, agendamento, anúncios e gestão de leads. Você só fecha as vendas.</p>
+                <a href="https://wa.me/5548999867086?text=Olá!%20Vim%20do%20artigo%20sobre%20Instagram%20e%20quero%20uma%20consultoria%20gratuita" target="_blank" class="btn">
+                    <i class="fab fa-whatsapp"></i> Quero uma análise gratuita do meu Instagram
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <footer>
+        <p>&copy; 2025 RedattoLAB - Marketing Digital Imobiliário</p>
+        <p><a href="https://www.redattolab.com.br" style="color: var(--accent-gold); text-decoration: none;">Voltar para o site</a></p>
+    </footer>
+</body>
+</html>
